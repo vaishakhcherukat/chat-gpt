@@ -7,9 +7,9 @@ import { EnvironmentConfiguration } from "src/app/models/environment-configurati
 export const environment: EnvironmentConfiguration = {
   env_name: 'dev',
   production: false,
-  apiKey: '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'
+  apiKey: ''
 };
-
+// generate an api key from open ai account and update it here to use the aplication
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
